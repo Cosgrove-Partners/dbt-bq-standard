@@ -5,3 +5,4 @@ logs/*
 .python-version
 .DS_Store
 .env
+.user.yml
