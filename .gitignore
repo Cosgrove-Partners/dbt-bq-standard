@@ -1,0 +1,7 @@
+
+target/*
+dbt_packages/*
+logs/*
+.python-version
+.DS_Store
+.env

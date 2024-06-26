@@ -1,0 +1,41 @@
+version: 2
+
+sources:
+  - name: google_sheets
+    dataset: src_google_sheets
+    tables:
+      - name: balance_sheet_ampg
+      - name: census_data_1tomplumber
+      - name: census_data_ampg
+      - name: census_data_revive
+      - name: profit_loss_ampg
+  - name: datashake
+    dataset: src_datashake
+    tables:
+      - name: google_reviews
+      - name: jobs_to_run
+      - name: new_jobs
+      - name: update_jobs
+  - name: src_ampg_api
+    dataset: src_ampg_api
+    tables:
+      - name: invoices
+  - name: src_google_analytics
+    dataset: src_google_analytics
+    tables:
+      - name: ga4_maps_all
+      - name: ga4_page_all
+      - name: ga4_site_all
+      - name: ua_maps_all
+      - name: ua_page_all
+      - name: ua_site_all
+  - name: src_quickbooks
+    dataset: src_quickbooks
+    tables:
+      - name: balance_sheet
+      - name: profit_loss
+      - name: log_auth_code
+      - name: prod_profit_loss
+      - name: log_token
+      - name: prod_balance_sheet
+      - name: test_balance_sheet
